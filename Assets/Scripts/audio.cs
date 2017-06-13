@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 public class audio : MonoBehaviour {
-	
+	float GG;
 	public Image som;
 	public Sprite somoff, somon;
 	// Use this for initialization
