@@ -21,13 +21,14 @@ public	Text total;
 				plus.maxTime -= 1;
 			
 			}
-			if (level >=80) {
+		
+			if (EnemyMovement.Velocidade < 0.8f) {
 				EnemyMovement.Velocidade += 0.1f;
 			}
+		}
 			
+				
 
-				level = 0;
-			}
 
 	}
 

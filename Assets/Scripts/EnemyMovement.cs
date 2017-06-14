@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour {
 
   
 	void Start () {
-		
+		Velocidade = 0.3f;
 	}
 
 	// Update is called once per frame
